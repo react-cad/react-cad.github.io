@@ -1,0 +1,1 @@
+define(["require","exports","./release_data"],(function(e,s,t){"use strict";Object.defineProperty(s,"__esModule",{value:!0}),s.latestSupportedTypeScriptVersion=s.monacoTSVersions=void 0,s.monacoTSVersions=[...t.supportedReleases,"Latest"],s.latestSupportedTypeScriptVersion=Object.keys(s.monacoTSVersions).filter((e=>"Nightly"!==e&&!e.includes("-"))).sort().pop()}));
